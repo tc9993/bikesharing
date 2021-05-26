@@ -25,45 +25,65 @@ The purpose of this analysis was to determine whether or not a bike-sharing prog
   <b>Figure 1.2: </b>Checkout Times for Users
 </p>
 <p>
+  This visual represents the length of time that bikes are checked out by all riders.  Most rides are around 5 minutes in length.  The number of rides exponentially decreases each minute after the 5th.
 </p>
+
 <h3>Checkout Times by Gender</h3>
 <p align='center'>
-<img src='' alt='Checkout Times by Gender'><br>
+<img src='https://github.com/tc9993/bikesharing/blob/main/Resources/checkout_times_by_gender.gif?raw=true' alt='Checkout Times by Gender' height=50% width=50%><br>
   <b>Figure 1.3: </b>Checkout Times by Gender
 </p>
 <p>
+  Men make up the majority of riders, with most taking rides for 5 minutes.  Female ride peak at the 6 minute mark while those whose gender remains unknown have the most ride durations of 11 minutes.
 </p>
+
 <h3>Trips by Weekday</h3>
 <p align='center'>
-<img src='' alt='Trips by Weekday'><br>
+<img src='https://github.com/tc9993/bikesharing/blob/main/Resources/trips_by_weekday.gif?raw=true' alt='Trips by Weekday' height=50% width=50%><br>
   <b>Figure 1.4: </b>Trips by Weekday
 </p>
 <p>
+  The majority of weekday/standard workday rides take place during the commuting hours of 6-9am and 4-6pm.  On Saturdays and Sundays the peak hours lie between 9am and 5pm.  Thursday eveningss yield the most rides of any time of the week.
 </p>
+
 <h3>Trips by Gender by Weekday (Per Hour)</h3>
 <p align='center'>
-<img src='' alt='Trips by Gender by Weekday (Per Hour)'><br>
+<img src='https://github.com/tc9993/bikesharing/blob/main/Resources/trips_by_gender_by_weekday.gif?raw=true' alt='Trips by Gender by Weekday (Per Hour)' height=50% width=50%><br>
   <b>Figure 1.5: </b>Trips by Gender by Weekday (Per Hour)
 </p>
 <p>
+  There is little difference in peak use hours by day when breaking the data down by gender.  It remains that Males make up the bulk of all bike share rides.
 </p>
+
 <h3>User Trips by Gender by Weekday</h3>
 <p align='center'>
-<img src='' alt='User Trips by Gender by Weekday'><br>
+<img src='https://github.com/tc9993/bikesharing/blob/main/Resources/usertrips_by_gender_by_weekday.gif?raw=true' alt='User Trips by Gender by Weekday' height=50% width=50%><br>
   <b>Figure 1.6: </b>User Trips by Gender by Weekday
 </p>
 <p>
+  Most rides are taken by subscribers as opposed to the customer usertype.  It appears that more customer-users have unknown genders as opposed to subscribers where the majority of subscriber users are male.
 </p>
+
 <h3>Rides by Gender</h3>
 <p align='center'>
-<img src='' alt='Rides by Gender'><br>
+<img src='https://github.com/tc9993/bikesharing/blob/main/Resources/rides_by_gender.gif?raw=true' alt='Rides by Gender' height=50% width=50%><br>
   <b>Figure 1.7: </b>Rides by Gender
 </p>
 <p>
+  Here the total rides are broken down by gender by the count of rides per gender.  While the other charts showed that, over time, males were the majority of rides, this chart shows the sheer difference in volume of rides between genders where male rides outnumber female rides by 88%.
 </p>
 
 <h2>Summary</h2>
 
 <h3>Summary of Results</h3>
-
-<h3>Additional Visualizations</h3>
+<p>
+  In sum, bike sharing is a successful practice in New York City that appears to hinge on male subscribers.  For it to be successful in Des Moines there must be accessibility to the bikes, roads, and, more broadly, the city at large.  With shared rides being so frequently short, the city must be small enough for a rider to make it from point A to B in roughly 5-10 minutes, thus the necessity for accessibility to the three items listed previously.
+</p>
+<p>
+  Furthermore, the heavy usage by subscriber usertypes tells us that the majority of users likely reside in the city where the bikeshare exists, meaning those living in Des Moines will be the target audience.  This is further backed by the data in showing that the bulk of rides occur during commuting hours Monday-Friday.  Acknowleding and focusing attention towards Des Moines residents, tilting toward driving male subscribers will be key to the success of this program in Des Moines.
+</p>
+<h3>Additional Visualization Recommendations</h3>
+<ol>
+  <li><b>Winter Numbers: </b>The analysis was conducted for the month of August in New York City.  Looking at the numbers during the winter months will be imperative to determing the yearround feasiblity of such a bikeshare program as the state of Iowa as a whole is known for their months-long below freezing temperatures.</li>
+  <li><b>Road Accessibility: </b>An analysis of how cycle-friendly the city of Des Moines is (or the investment by the city willing to make it such) would also be important in this case, as where there is not infrastructure for biking, there will be fewer bikes. Comparing bike accessibility between New York City and Des Moines is likely not feasible given the vast differences in size, location, and transportation options, however determining whether Des Moines meets the minimum criteria to encourage cycling as a legitiamate means of transportation would be necessary to further promote investing in a bike share program there.</li>
+</ol>
